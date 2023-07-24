@@ -73,6 +73,7 @@ function generateMarkdown(data) {
 
   ## License
   ${data.license}
+  ${renderLicenseSection(data.license)}
 
   ## Questions
   If you have any questions, send me a message [GitHub](https://github.com/${data.gitname}) or send me an email: ${data.email}
