@@ -14,9 +14,21 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
+// Creates a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if(license.length === 0){
+    return ''
+  } else if (license == 'Apache'){
+    return 'https://opensource.org/licenses/Apache-2.0'
+  } else if(license == 'GNU'){
+    return 'https://www.gnu.org/licenses/gpl-3.0'
+  } else if (license == 'MIT'){
+    return 'https://opensource.org/licenses/MIT'
+  } else if (license == 'BSD-2'){
+    return 'https://opensource.org/licenses/BSD-2-Clause'
+  } 
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
