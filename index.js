@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-
+const generateMarkdown = require('./utils/generateMarkdown');
 // An array of questions for user input
 const questions = [
   {
@@ -15,7 +15,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'instructions',
+    name: 'installation',
     message: 'Write installation instructions',
   },
   {
@@ -38,11 +38,6 @@ const questions = [
     name: 'license',
     message: 'Choose a license for your project',
     choices: ['Apache', 'GNU', 'MIT', 'BSD-2'],
-  },
-  {
-    type: 'input',
-    name: 'gitname',
-    message: 'Enter your github username',
   },
   {
     type: 'input',
