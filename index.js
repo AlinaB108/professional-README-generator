@@ -25,7 +25,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contribution',
+    name: 'contributing',
     message: 'Write the instructions how to contribute to your project'
   },
   {

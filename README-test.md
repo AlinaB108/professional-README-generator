@@ -1,33 +1,35 @@
-# abc
+# README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  abc
+  This app...
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contribution)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
 
   ## Installation
-  abc
+  Clone the repository, then...
 
   ## Usage
-  abc
+  To use this app...
 
   ## Contributing
-  abc
+  Fork the project, then...
 
   ## Tests
-  abc
+  Test1 test2
 
+  ## License
+  MIT
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   https://opensource.org/licenses/MIT 
     
 
   ## Questions
-  If you have any questions, send me a message [GitHub](https://github.com/abc) or send me an email: abc
+  If you have any questions, send me a message [GitHub](https://github.com/AlinaB) or send me an email: abc@gmail.com

@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contribution)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
@@ -66,7 +66,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Contributing
-  ${data.contribution}
+  ${data.contributing}
 
   ## Tests
   ${data.tests}
